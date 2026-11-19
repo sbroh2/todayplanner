@@ -1,0 +1,7 @@
+{
+  "name": "today-planner-tests",
+  "private": true,
+  "description": "Today Planner 일일 업무보고 / 첨부파일 자동 브라우저 테스트 (Chrome)",
+  "scripts": { "test": "node report-test.js && node attach-test.js && node review-test.js && node review-cycle-test.js && node menu-test.js" },
+  "dependencies": { "playwright-core": "1.56.1" }
+}
